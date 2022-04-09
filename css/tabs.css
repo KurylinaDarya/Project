@@ -2,7 +2,7 @@
 .tabs {
 	max-width: 1170px;
 	height: 540px;
-	margin: 0 auto;
+	margin: 99px auto 0 auto;
 }
 .input{
 	opacity: 0;
@@ -21,7 +21,7 @@
 	border: 1px solid #C6CBCD;
 }
 .tab {
-	width: 200px;
+	width: 190px;
 	display: inline-block;
 	padding: 10px 20px;
 	position: relative;
@@ -96,7 +96,7 @@
 	border-color: #ab4949;
 } 
 .button:active {
-	outline: none;
+	background: #ec7979;
 	box-shadow: inset 0 0 10px 0 #AB4949;
 	border-color: #ab4949;
 }

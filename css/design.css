@@ -1,0 +1,59 @@
+
+.design{
+	height: 442px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/img08.png') no-repeat center;
+}
+
+.design__title{
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 42px;
+	text-align: center;
+	padding: 54px 0;
+	color: #ffff;
+	margin: 0 auto;
+	text-transform: capitalize;
+	position: relative;
+}
+.design__title::after {
+	content: '';
+	position: absolute;
+	width: 170px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 1px;
+	margin: auto;
+	background-color: #ffff;
+}
+.design__subtitle {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+	color: #ffffff;
+	margin: 40px auto 73px auto;
+}
+.design__button {
+	width: 370px;
+	height: 58px;
+	display: block;
+	background: transparent;
+	color: #ffff;   
+	border: 2px solid #ffff;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+	font-weight: 600;
+    text-align: center;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.design__button:hover {
+	border: 2px solid #EC7979;
+}
+.design__button:active {
+	background: #ab4949;
+	border: 2px solid #ab4949;
+}
