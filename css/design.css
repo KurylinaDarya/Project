@@ -2,6 +2,7 @@
 .design{
 	height: 442px;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/img08.png') no-repeat center;
+	margin-bottom: 50px;
 }
 
 .design__title{
