@@ -12,7 +12,6 @@
 	line-height: 42px;
 	text-align: center;
 	padding: 54px 0;
-	text-transform: capitalize;
 	position: relative;
 }
 .customers__title::after {

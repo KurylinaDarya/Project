@@ -14,7 +14,6 @@
 	padding: 54px 0;
 	color: #ffff;
 	margin: 0 auto;
-	text-transform: capitalize;
 	position: relative;
 }
 .design__title::after {

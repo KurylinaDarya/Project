@@ -10,7 +10,6 @@
 	text-align: center;
 	padding: 54px 0;
 	margin: 0 auto;
-	text-transform: capitalize;
 	position: relative;
 }
 .contact__title::after {

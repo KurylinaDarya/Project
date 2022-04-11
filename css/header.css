@@ -52,7 +52,6 @@
 	line-height: 56px;
 	text-align: left;
 	color:#ffff;
-	text-transform: capitalize;
 	position: relative;
 }
 .content-left__title::after {
@@ -119,7 +118,6 @@
 	text-align: left;
 	color: #BDBDBD;
 	margin: 0 0 52px 0;
-	text-transform: capitalize;
 	position: relative;
 }
 .item::after {
