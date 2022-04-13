@@ -4,6 +4,9 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+*, a:focus {
+    outline: none !important;
+}
 input, textarea {
 	-webkit-appearance: none;
 }

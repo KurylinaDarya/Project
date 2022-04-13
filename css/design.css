@@ -51,9 +51,8 @@
 	cursor: pointer;
 }
 .design__button:hover {
-	border: 2px solid #EC7979;
+	background: #EC7979;
 }
 .design__button:active {
 	background: #ab4949;
-	border: 2px solid #ab4949;
 }

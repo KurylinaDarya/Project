@@ -27,15 +27,23 @@
 				<h5 class="content-left__subtitle">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit</h5>
 				<button class="content-left__button">Download</button>
 			</div>
-			<div class="banner__content-right">
-				<h4 class="content-right__title">TRY YOUR <span class="colortext"> FREE </span> TRIAL TODAY</h4>
-				<ul class="content-right__items">
-					<li class="item">Name</li>
-					<li class="item">Email</li>
-					<li class="item">Password</li>
-				</ul>
-				<button class="content-right__button">Get Started</button>
-			</div>
+			<form action="#" method="get">
+				<div class="banner__content-right">
+					<h4 class="content-right__title">TRY YOUR <span class="colortext"> FREE </span> TRIAL TODAY</h4>
+					<div class="content-right__items">
+						<div class="item">
+							<input placeholder="Name" type="text" id="name" name="user_name">
+						</div>
+						<div class="item">
+							<input placeholder="E-mail:" type="email" id="mail" name="user_mail">
+						</div>	
+						<div class="item">
+							<input placeholder="Password:" type="password" id="pwd" name="user_password"></input>
+						</div>
+					</div>
+					<button class="content-right__button">Get Started</button>
+				</div>
+			</form>
 		</section>
 		<section class="media">
 			<div class="media__content">
@@ -217,39 +225,38 @@
 		<section class="contact">
 			<h2 class="contact__title">CONTACT US</h2>
 			<h5 class="contact__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-			<div class="contact__form">
-				<div class="form__item">
-					<label for="name">Name:</label>
-					<input type="text" id="name" name="user_name">
+			<form action="#" method="get">		
+				<div class="contact__form">
+					<div class="form__item">
+						<input placeholder="Name" type="text" id="name" name="user_name">
+					</div>
+					<div class="form__item">
+						<input placeholder="E-mail:" type="email" id="mail" name="user_mail">
+					</div>	
+					<div class="form__item">
+						<input placeholder="Password:" type="password" id="pwd" name="user_password">
+					</div>
+					<div class="form__item">
+						<textarea placeholder="Message:" id="msg" name="user_message"></textarea>
+					</div>
 				</div>
-				<div class="form__item">
-					<label for="mail">E-mail:</label>
-					<input type="email" id="mail" name="user_mail">
-				</div>
-				<div class="form__item">
-					<label for="msg">Password:</label>
-					<input type="password" id="pwd" name="user_password"></input>
-				</div>
-				<div class="form__item">
-					<label for="msg">Message:</label>
-					<textarea id="msg" name="user_message"></textarea>
-				</div>
-			</div>
-			<button class="contact__button">Send Message</button>
+				<button class="contact__button" type="submit">Send Message</button>
+			</form>
 		</seсtion>
 	</body>
 	<footer>
 		<section class="footer">
-			<div class="footer__icons">
-				<img src="img/facebook_icon2.png">
-				<img src="img/twitter_icon2.png">
-				<img src="img/linkedin_icon2.png">
-				<img src="img/pinterest_icon2.png">
-				<img src="img/instagram_icon2.png">
-				<img src="img/github_icon2.png">
-				<img src="img/rss_icon2.png">
-			</div>
-			<p class="footer__text">© 2015 Axure Themes</p>
-		</section>
+            <div class="footer__icons">
+                <img src="img/facebook_icon2.png">
+                <img src="img/twitter_icon2.png">
+                <img src="img/linkedin_icon2.png">
+                <img src="img/pinterest_icon2.png">
+                <img src="img/instagram_icon2.png">
+                <img src="img/github_icon2.png">
+                <img src="img/rss_icon2.png">
+            </div>
+            <p class="footer__text">© 2015 Axure Themes</p>
+        </section>
+
 	</footer>
 </html>

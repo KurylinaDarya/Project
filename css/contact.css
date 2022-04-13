@@ -41,25 +41,21 @@
 	margin: 0 auto;
 }
 .form__item {
-	flex: 1 1 88px;
+	width: 50%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 19px;
 	text-align: left;
 	color: #BDBDBD;
-	text-transform: capitalize;
-	position: relative;
+	padding-bottom: 16px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	border: none;
+    border-bottom: 2px solid #BDBDBD;
 }
-.form__item::after {
-    content: '';
-    position: absolute;
-    width: 570px;
-    left: 0;
-    bottom: 50px;
-    height: 1px;
-    margin: auto;
-    background-color: #BDBDBD;
+.form__item:nth-child(4){
+	height: 100%;
 }
 .contact__button {
 	width: 370px;
