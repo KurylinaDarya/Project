@@ -1,6 +1,9 @@
 
 .contact {
+	max-width: 1200px;
+	padding: 0 15px;
 	height: 622px;
+	margin: 0 auto;
 }
 .contact__title {
 	font-family: 'Raleway', sans-serif;
@@ -41,7 +44,7 @@
 	margin: 0 auto;
 }
 .form__item {
-	width: 50%;
+	width: 571px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
@@ -50,12 +53,12 @@
 	color: #BDBDBD;
 	padding-bottom: 16px;
 	margin-bottom: 50px;
-	margin-left: 30px;
 	border: none;
     border-bottom: 2px solid #BDBDBD;
 }
 .form__item:nth-child(4){
 	height: 100%;
+	margin-left: 30px;
 }
 .contact__button {
 	width: 370px;

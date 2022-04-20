@@ -1,17 +1,17 @@
 
 .customers {
-	width: 1170px;
+	max-width: 1200px;
+	padding: 0 15px;
 	margin: 50px auto 64px auto;
 }
 .customers__title {
-	width: 1170px;
-	margin: 0 0 40px 0;
 	font-family: 'Raleway', sans-serif;
 	font-size: 36px;
 	font-weight: 400;
 	line-height: 42px;
 	text-align: center;
 	padding: 54px 0;
+	margin-bottom: 40px;
 	position: relative;
 }
 .customers__title::after {
@@ -26,7 +26,6 @@
 	background-color: #EC7979;
 }
 .customers__subtitle {
-	margin: 0 0 83px 0;
 	font-family: 'Raleway', sans-serif;
 	color: #86878B;
 	font-size: 18px;
@@ -34,13 +33,14 @@
 	line-height: 21px;
 	text-align: center;
 	padding: 0;
+	margin-bottom: 83px;
 }
 .customers__content {
 	display: flex;
 	justify-content: center;
 }
 .customers__content-columns {
-	margin: 0 15px 0 15px;
+	flex: 0 0 calc(100% / 3);
 }
 .content__columns-text {
 	width: 370px;
@@ -78,10 +78,9 @@
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 33px;
-	letter-spacing: 0em;
 	text-align: left;
-	margin: 0 30px 15px 100px;
 	padding: 15px 0;
+	margin: 0 30px 15px 100px;
 }
 .desk {
 	font-family: 'Raleway', sans-serif;
@@ -90,5 +89,4 @@
 	line-height: 21px;
 	text-align: left;
 	margin: 0 30px 0 100px;
-	padding: 0;
 }

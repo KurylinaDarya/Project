@@ -1,7 +1,9 @@
 
 .pricing {
+	max-width: 1200px;
 	height: 900px;
-	padding: 50px 0;
+	padding: 50px 15px;
+	margin: 0 auto;
 	background: #F5F5F5;
 }
 .pricing__title {
@@ -11,7 +13,7 @@
 	line-height: 42px;
 	text-align: center;
 	position: relative;
-	margin: 0 0 40px 0;
+	margin-bottom: 40px;
 	padding: 54px 0;
 }
 .pricing__title::after {
@@ -26,27 +28,23 @@
 	background-color: #EC7979;
 }
 .pricing__subtitle {
-	margin: 0 0 59px 0;
 	font-family: 'Raleway', sans-serif;
 	color: #86878B;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 21px;
 	text-align: center;
-	padding: 0;
+	margin-bottom: 59px;
 }
 .pricing__content {
 	display: flex;
 	justify-content: center;
 }
-.content__columns {
-	margin: 0 15px 0 15px;
-	align-self: flex-start;
-}
 .content__columns:nth-child(2) {
 	position: relative;
 	bottom: 20px;
 	box-shadow:  0 10px 10px #86878B;
+	margin: 0 30px 0 30px;
 }
 .column__title{
 	width: 370px;

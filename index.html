@@ -9,16 +9,21 @@
 	</head>
 	<body>
 		<section class="header">
-			<div class="header__logo">
-				<a href=""><img src="img/logo1.png"></a>
+			<div class="header__container">
+				<img class="logo" src="img/logo1.png">
+				<div class="header__burger">
+					<span></span>
+				</div>
+				<nav class="header__menu">
+					<ul class="header__list">
+						<li><a href="" class="header__link">Features</a></li>
+						<li><a href="" class="header__link">About</a></li>
+						<li><a href="" class="header__link">Pricing</a></li>
+						<li><a href="" class="header__link">Reviews</a></li>
+						<li><a href="" class="header__link">Contact</a></li>
+					</ul>
+				</nav>
 			</div>
-			<ul class="header__menu">
-				<li><a href="" class="menu__link">Features</a></li>
-				<li><a href="" class="menu__link">About</a></li>
-				<li><a href="" class="menu__link">Pricing</a></li>
-				<li><a href="" class="menu__link">Reviews</a></li>
-				<li><a href="" class="menu__link">Contact</a></li>
-			</ul>
 		</section>
 		<section class="banner">
 			<div class="banner__content-left">
@@ -46,18 +51,20 @@
 			</form>
 		</section>
 		<section class="media">
-			<div class="media__content">
-				<h4 class="media__content-title">Social Media</h4>
-				<h5 class="media__content-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Aenean euismod bibendum laoreet.</h5>
-			</div>
-			<div class="media__icon">
-				<img src="img/facebook_icon.png">
-				<img src="img/twitter_icon.png">
-				<img src="img/linkedin_icon.png">
-				<img src="img/pinterest_icon.png">
-				<img src="img/instagram_icon.png">
-				<img src="img/github_icon.png">
-				<img src="img/rss_icon.png">
+			<div class="media__container">
+				<div class="media__content">
+					<h4 class="media__content-title">Social Media</h4>
+					<h5 class="media__content-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Aenean euismod bibendum laoreet.</h5>
+				</div>
+				<div class="media__icons">
+					<img class="icon-1" src="img/facebook_icon2.png">
+					<img class="icon-1" src="img/twitter_icon2.png">
+					<img class="icon-1" src="img/linkedin_icon2.png">
+					<img class="icon-1" src="img/pinterest_icon2.png">
+					<img class="icon-1" src="img/instagram_icon2.png">
+					<img class="icon-1" src="img/github_icon2.png">
+					<img class="icon-1" src="img/rss_icon2.png">
+				</div>
 			</div>
 		</section>
 		<section class="tabs">
@@ -78,10 +85,7 @@
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
 								bibendum laoreet.</p>
 						<button class="button">Download</button>
-					</div>
-					<div class="content__image">
-                        <img src="img/img04.png" alt="">
-                    </div>		
+					</div>		
 				</div>
 				<div class="content content-2">
 					<div class="content__left">
@@ -93,10 +97,7 @@
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
 								bibendum laoreet.</p>
 						<button class="button">Download</button>
-					</div>
-					<div class="content__image">
-                        <img src="img/img04.png" alt="">
-                    </div>		
+					</div>	
 				</div>
 				<div class="content content-3">
 					<div class="content__left">
@@ -108,10 +109,7 @@
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
 								bibendum laoreet.</p>
 						<button class="button">Download</button>
-					</div>
-					<div class="content__image">
-                        <img src="img/img04.png" alt="">
-                    </div>		
+					</div>	
 				</div>
 			</div>
 		</section>
@@ -123,19 +121,19 @@
 					<img class="content__img" src="img/img01.png">
 					<h4 class="content__title">Thoughtful Design</h4>
 					<h5 class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing<br> 
-					elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
+					elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus<br> accumsan et viverra.</h5>
 				</div>
 				<div class="content__column">
 					<img class="content__img" src="img/img02.png">
 					<h4 class="content__title">Thoughtful Design</h4>
 					<h5 class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing<br> 
-				 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
+				 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus<br> accumsan et viverra.</h5>
 				</div>
 				<div class="content__column">
 					<img class="content__img" src="img/img03.png">
 					<h4 class="content__title">Thoughtful Design</h4>
 					<h5 class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing<br> 
-				 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
+				 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus<br> accumsan et viverra.</h5>
 				</div>
 			</div>
 		</section>
@@ -237,26 +235,25 @@
 						<input placeholder="Password:" type="password" id="pwd" name="user_password">
 					</div>
 					<div class="form__item">
-						<textarea placeholder="Message:" id="msg" name="user_message"></textarea>
+						<textarea placeholder="Message:" id="msg" name="user_message" rose="8" cols="50"></textarea>
 					</div>
 				</div>
-				<button class="contact__button" type="submit">Send Message</button>
+				<button class="contact__button">Send Message</button>
 			</form>
 		</seсtion>
 	</body>
 	<footer>
 		<section class="footer">
             <div class="footer__icons">
-                <img src="img/facebook_icon2.png">
-                <img src="img/twitter_icon2.png">
-                <img src="img/linkedin_icon2.png">
-                <img src="img/pinterest_icon2.png">
-                <img src="img/instagram_icon2.png">
-                <img src="img/github_icon2.png">
-                <img src="img/rss_icon2.png">
+                <img class="icon" src="img/facebook_icon2.png">
+                <img class="icon" src="img/twitter_icon2.png">
+                <img class="icon" src="img/linkedin_icon2.png">
+                <img class="icon" src="img/pinterest_icon2.png">
+                <img class="icon" src="img/instagram_icon2.png">
+                <img class="icon" src="img/github_icon2.png">
+                <img class="icon" src="img/rss_icon2.png">
             </div>
             <p class="footer__text">© 2015 Axure Themes</p>
         </section>
-
 	</footer>
 </html>
