@@ -12,18 +12,13 @@
 @import url(contact.css);
 
 @media (max-width: 1024px) {
-	.header__container{
+	.header__body{
 		max-width: 1024px;
-		padding: 0 16px;
-	}
-	.logo{
-		width: 183px;
-	}
+	}     
 	.header__list{
 		width: 566px;
 	}
 	.banner{
-		width: 100%;
 		max-width: 1024px;
 		padding: 0 16px;
 		margin: 0 auto;
@@ -75,8 +70,9 @@
 	}
 	.media__container{
 		max-width: 1024px;
-		height: 90px;
 		padding: 0 16px;
+		height: 90px;
+		width: 100%;
 		margin: 0 auto 13px auto;
 	}
 	.media__content-title{
@@ -318,14 +314,21 @@
 		margin: 30px auto;
 	}
 }
-
 @media (max-width: 768px) {
+	.header__body{
+		padding: 0 16px;
+		height: 56px;
+	}
+	.logo{
+		display: none;
+	}
 	.header__burger{
 		display: block;
 		position: relative;
-		width: 30px;
-		height: 20px;
-		z-index: 4;
+		width: 24px;
+		height: 18px;
+		cursor: pointer;
+		z-index: 5;
 	}
 	.header__burger span{
 		position: absolute;
@@ -342,7 +345,7 @@
 		position: absolute;
 		width: 100%;
 		height: 2px;
-		left: 0;
+		right: 0;
 	}
 	.header__burger::before{
 		top: 0;
@@ -355,8 +358,7 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: #000000;
-		padding-top: 80px;
+		padding-top: 56px;
 	}
 	.header__list {
 		display: block;
@@ -367,15 +369,14 @@
 		padding: 24px 0;
 	}
 	.banner {
-		max-width: 320px;
-		padding: 0 16px;
 		margin-bottom: 80px;
+		display: flex;
 		flex-direction: column;
+		align-items: center;
 	}
 	.banner__content-left {
 		width: 288px;
-		margin-top: 84px;
-		margin-bottom: 56px;
+		margin: 84px auto 56px auto;
 	}
 	.banner__content-right {
 		height: 381px;
@@ -393,6 +394,8 @@
 	.content-left__title::after {
 		width: 134px;
 		bottom: -43px;
+		left: 0;
+		right: 0;
 	}
 	.content-left__subtitle {
 		font-size: 14px;
@@ -426,7 +429,6 @@
 		height: 239px;
 	}
 	.media__container{
-		max-width: 320px;
 		height: 164px;
 		padding: 0 16px;
 		display: flex;
@@ -459,10 +461,8 @@
 	}
 	/*tabs*/
 	.tabs {
-		max-width: 320px;
 		height: 470px;
-		padding: 0 16px;
-		margin: 41px auto 0 auto;
+		margin-top: 41px;
 	}
 	.tab {
 		width: 95px;
@@ -473,7 +473,7 @@
 	.content__left {
 		width: 243px;
 		height: 400px;
-		margin: 0 20.5px 30px 25px;
+		margin: 0 20.5px 30px 25px;;
 	}
 	.title {
 		font-size: 18px;
@@ -497,9 +497,7 @@
 	}
 	/*about*/
 	.about {
-		max-width: 320px;
 		height: 1199px;
-		padding: 0 16px;
 		margin-bottom: 60px;
 	}
 	.about__title {
@@ -542,9 +540,7 @@
 	}
 	/*pricing*/
 	.pricing {
-		max-width: 320px;
 		height: 1480px;
-		padding: 0px 16px;
 	}
 	.pricing__title {
 		font-size: 24px;
@@ -563,6 +559,7 @@
 	.pricing__content {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 	}
 	.content__columns{
 		margin-bottom: 27px;
@@ -598,8 +595,6 @@
 	}
 	/*customers*/
 	.customers {
-		max-width: 320px;
-		padding: 0 16px;
 		margin-bottom: 31.5;
 	}
 	.customers__title {
@@ -620,6 +615,7 @@
 	.customers__content {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 	}
 	.customers__content-columns {
 		flex: 0 0 calc(100% / 3);
@@ -651,8 +647,6 @@
 	}
 	/*design*/
 	.design{
-		max-width: 320px;
-		padding: 0 16px;
 		height: 358px;
 		margin-bottom: 0px;
 	}
@@ -676,8 +670,6 @@
 	}
 	/*contact*/
 	.contact {
-		max-width: 320px;
-		padding: 0 16px;
 		height: 807px;
 	}
 	.contact__title {
@@ -711,11 +703,10 @@
 	.contact__button {
 		width: 288px;
 		height: 50px;
+		margin-bottom: 50px;
 	}
 	/*footer*/
 	.footer {
-		max-width: 320px;
-		padding: 0 16px;
 		margin-top: 0px;
 		display: flex;
 		flex-direction: column;
