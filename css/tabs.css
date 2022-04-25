@@ -1,6 +1,6 @@
 
 .tabs {
-	max-width: 1200px;
+	max-width: 1170px;
 	height: 540px;
 	padding: 0 15px;
 	margin: 99px auto 0 auto;
@@ -58,7 +58,7 @@
 	background-size: 470px 500px;
 }
 .content__left {
-	width: 700px;
+    width: 48%;
 	height: 500px;
 	margin: 0 30px 0 100px;
 }
@@ -71,7 +71,6 @@
 	margin-bottom: 27px;
 }
 .text {
-	width: 570px;
 	height: 210px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
